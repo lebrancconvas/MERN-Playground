@@ -2,15 +2,15 @@
 	"questions": [
 		{
 			"id": 1,
-			"question": "การจัดการกับผู้ป่วยที่เป็นโรคซึมเศร้า วิธีใดที่ได้ผลที่สุด",
+			"question": "Which one is not the fighting game?",
 			"mode": "calm",
 			"choices": [
-				"แจกลูกโป่ง",
-				"พาไปกินขนม",
-				"นั่งฟังอย่างเข้าใจ",
-				"วิ่ง"
+				"Bloody Roar",
+				"Dissidia: Final Fantasy",
+				"Klonoa",
+				"King of Fighter"
 			],
-			"answer": "นั่งฟังอย่างเข้าใจ"
+			"answer": "Klonoa"
 		}
 	]
 }
