@@ -1,0 +1,30 @@
+{
+  "name": "MERN-Playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:all": "nx run-many --target=build --all",
+    "build:since": "nx affected --target=build",
+    "test:all": "nx run-many --target=test --all",
+    "test:since": "nx affected --target=test",
+    "dev": "nx run-many --target=dev --all",
+    "start": "nx run-many --target=start --all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "w:info": "yarn workspaces info"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
+  "devDependencies": {
+    "@nrwl/nx-cloud": "latest",
+    "dotenv": "^16.0.1",
+    "lerna": "^5.1.4",
+    "nx": "14.4.3"
+  }
+}
